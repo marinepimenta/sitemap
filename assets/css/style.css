@@ -1,0 +1,86 @@
+
+#que {
+    background-image: url(../img/imagemfundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    
+}
+
+#que .paragrafo {
+    color:white;
+    font-size: 30px;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 0px;
+}
+
+#que .texto {
+    color:white;
+    font-size: 10px;
+    padding-left: 150px;
+
+}
+
+#que .menu {
+    color:white;
+    padding-top: 30px;
+    padding-left: 150px;
+    list-style: none;
+   
+}
+
+.menu li { 
+    display: inline }
+
+#conteudo {
+    background-color: white;
+     height: 200px;
+}
+
+#conteudo .tituloLaranja {
+    color:orangered;
+      margin: 0px;
+    padding: 10px;
+    padding-top: 85px;
+}
+
+#conteudo .textoConteudo {
+    color: #C1C5C8;
+    margin: 0px;
+
+}
+
+#conteudo .virgula1 {
+   padding-top: 50px;
+    color:orangered;
+    font-size: 30px;
+    margin:0px;
+}
+
+#conteudo .virgula2 {
+    color:orangered;
+    font-size: 30px;
+    margin:0px;
+    padding-left: 300px;
+}
+
+#conteudo .textoLaranja {
+    color: orangered;
+    
+    
+}
+
+#rodape {
+    color: white;
+    background-color: #E87A77;
+    font-size: 12px;
+    
+}
+
+#rodape li {
+    padding-top: 5px;
+    list-style: none;
+
+}
+
