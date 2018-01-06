@@ -1,3 +1,4 @@
+/* OS MEDIA QUERY TEM QUE ESTAR EMBAIXO DE CADA ELEMENTO QUE DEVE MUDAR PARA SER RESPONSIVO*/
 
 #que {
     background-image: url(../img/imagemfundo.png);
@@ -9,18 +10,43 @@
 
 #que .paragrafo {
     color:white;
-    font-size: 30px;
-    padding-top: 100px;
+    font-size: 50px;
+    padding-top: 50px;
     padding-left: 150px;
     padding-bottom: 0px;
 }
 
+/* CÓDIGO RESPONSIVO DO PARAGRAFO */
+@media screen and (max-width: 375px) {
+    #que .paragrafo {
+     padding-top: 0px;
+    padding-left: 0px;
+    }
+}
+/* FIM CÓDIGO RESPONSIVO DO PARAGRAFO */
+
+
 #que .texto {
     color:white;
-    font-size: 10px;
+    font-size: 13px;
     padding-left: 150px;
 
 }
+
+
+
+/* CÓDIGO RESPONSIVO DO TEXTO */
+@media screen and (max-width: 375px) {
+    #que .texto {
+     padding-top: 0px;
+    padding-left: 0px;
+    font-size: 15px;
+    }
+}
+/* FIM CÓDIGO RESPONSIVO DO TEXTO */
+
+
+
 
 #que .menu {
     color:white;
@@ -29,44 +55,170 @@
     list-style: none;
    
 }
+/* CÓDIGO RESPONSIVO DO MENU */
+@media screen and (max-width: 375px) {
+    #que .menu {
+     padding-top: 0px;
+    padding-left: 0px;
+    }
+}
+
+/* FIM CÓDIGO RESPONSIVO DO MENU*/
+
 
 .menu li { 
-    display: inline }
+    display: inline;
+       
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white;
+
+}
+
+.menu a:hover{
+    color: orangered;
+}
 
 #conteudo {
     background-color: white;
      height: 200px;
+   
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: justify;
 }
 
 #conteudo .tituloLaranja {
     color:orangered;
-      margin: 0px;
-    padding: 10px;
-    padding-top: 85px;
+    margin: 0px;
+    padding-top: 45px;
+    text-align: justify;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
+
+
+/* CÓDIGO RESPONSIVO TITULO LARANJA */
+@media screen and (max-width: 375px) {
+   #conteudo .tituloLaranja {
+    float: right;
+    padding-bottom: 500px;
+    margin: 0px;
+    font-size: 10px;
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO TITULO LARANJA */
+
+
+
+
 
 #conteudo .textoConteudo {
     color: #C1C5C8;
     margin: 0px;
+    text-align: justify;
+    width: 90%;
+    padding-right: 100px;
+   
 
 }
 
+
+
+
 #conteudo .virgula1 {
-   padding-top: 50px;
+
     color:orangered;
     font-size: 30px;
     margin:0px;
+    width: 90%;
+    padding-left: 188px;
 }
+
+
+
+/* CÓDIGO RESPONSIVO VIRGULA 1 */
+@media screen and (max-width: 375px) {
+    #conteudo .virgula1 {
+
+    color:orangered;
+    font-size: 30px;
+    margin:0px;
+    width: 90%;
+    padding-left: 2px;
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DO VIRGULA 1*/
+
 
 #conteudo .virgula2 {
     color:orangered;
     font-size: 30px;
     margin:0px;
-    padding-left: 300px;
+    padding-left: 390px;
+    
 }
+
+
+
+/* CÓDIGO RESPONSIVO VIRGULA 2 */
+@media screen and (max-width: 375px) {
+    #conteudo .virgula2 {
+    color:orangered;
+    font-size: 30px;
+    margin:0px;
+    padding-left: 150px;
+   
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DO VIRGULA 2*/
+
+
+
+
+
 
 #conteudo .textoLaranja {
     color: orangered;
+    padding-left: 188px;
+    
+}
+
+
+
+/* CÓDIGO RESPONSIVO TEXTO LARANJA */
+@media screen and (max-width: 375px) {
+    #conteudo .textoLaranja {
+    color: orangered;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DO TEXTO LARANJA */
+
+
+
+
+#conteudo .linha-vertical {
+  height: 300px; /*Altura da linha*/
+  border-left: 2px solid; /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  float: right;
+  margin-right: 60px;
+  color:#EAEAEA;
+      
+  
     
     
 }
