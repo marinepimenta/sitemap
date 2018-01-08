@@ -1,4 +1,5 @@
-/* OS MEDIA QUERY TEM QUE ESTAR EMBAIXO DE CADA ELEMENTO QUE DEVE MUDAR PARA SER RESPONSIVO*/
+/* CÓDIGO CSS DO SITE DESKTOP */
+/* OS MEDIA QUERY ESTÃO ABAIXO */
 
 #que {
     background-image: url(../img/imagemfundo.png);
@@ -16,14 +17,6 @@
     padding-bottom: 0px;
 }
 
-/* CÓDIGO RESPONSIVO DO PARAGRAFO */
-@media screen and (max-width: 375px) {
-    #que .paragrafo {
-     padding-top: 0px;
-    padding-left: 0px;
-    }
-}
-/* FIM CÓDIGO RESPONSIVO DO PARAGRAFO */
 
 
 #que .texto {
@@ -33,21 +26,6 @@
 
 }
 
-
-
-/* CÓDIGO RESPONSIVO DO TEXTO */
-@media screen and (max-width: 375px) {
-    #que .texto {
-     padding-top: 0px;
-    padding-left: 0px;
-    font-size: 15px;
-    }
-}
-/* FIM CÓDIGO RESPONSIVO DO TEXTO */
-
-
-
-
 #que .menu {
     color:white;
     padding-top: 30px;
@@ -55,15 +33,7 @@
     list-style: none;
    
 }
-/* CÓDIGO RESPONSIVO DO MENU */
-@media screen and (max-width: 375px) {
-    #que .menu {
-     padding-top: 0px;
-    padding-left: 0px;
-    }
-}
 
-/* FIM CÓDIGO RESPONSIVO DO MENU*/
 
 
 .menu li { 
@@ -101,24 +71,6 @@
     font-size: 20px;
 }
 
-
-/* CÓDIGO RESPONSIVO TITULO LARANJA */
-@media screen and (max-width: 375px) {
-   #conteudo .tituloLaranja {
-    float: right;
-    padding-bottom: 500px;
-    margin: 0px;
-    font-size: 10px;
-}
-
-}
-
-/* FIM CÓDIGO RESPONSIVO TITULO LARANJA */
-
-
-
-
-
 #conteudo .textoConteudo {
     color: #C1C5C8;
     margin: 0px;
@@ -128,8 +80,6 @@
    
 
 }
-
-
 
 
 #conteudo .virgula1 {
@@ -142,23 +92,6 @@
 }
 
 
-
-/* CÓDIGO RESPONSIVO VIRGULA 1 */
-@media screen and (max-width: 375px) {
-    #conteudo .virgula1 {
-
-    color:orangered;
-    font-size: 30px;
-    margin:0px;
-    width: 90%;
-    padding-left: 2px;
-}
-
-}
-
-/* FIM CÓDIGO RESPONSIVO DO VIRGULA 1*/
-
-
 #conteudo .virgula2 {
     color:orangered;
     font-size: 30px;
@@ -167,49 +100,11 @@
     
 }
 
-
-
-/* CÓDIGO RESPONSIVO VIRGULA 2 */
-@media screen and (max-width: 375px) {
-    #conteudo .virgula2 {
-    color:orangered;
-    font-size: 30px;
-    margin:0px;
-    padding-left: 150px;
-   
-}
-
-}
-
-/* FIM CÓDIGO RESPONSIVO DO VIRGULA 2*/
-
-
-
-
-
-
 #conteudo .textoLaranja {
     color: orangered;
     padding-left: 188px;
     
 }
-
-
-
-/* CÓDIGO RESPONSIVO TEXTO LARANJA */
-@media screen and (max-width: 375px) {
-    #conteudo .textoLaranja {
-    color: orangered;
-    padding-left: 10px;
-    font-size: 12px;
-}
-
-}
-
-/* FIM CÓDIGO RESPONSIVO DO TEXTO LARANJA */
-
-
-
 
 #conteudo .linha-vertical {
   height: 300px; /*Altura da linha*/
@@ -217,9 +112,6 @@
   float: right;
   margin-right: 60px;
   color:#EAEAEA;
-      
-  
-    
     
 }
 
@@ -236,3 +128,126 @@
 
 }
 
+
+/* CÓDIGO CSS DO SITE DESKTOP */
+
+
+/* MEDIA QUERY PARA CELULARES MAX 375 */
+
+/* CÓDIGO RESPONSIVO DO PARAGRAFO */
+@media screen and (max-width: 414px) {
+    #que .paragrafo {
+     padding-top: 0px;
+    padding-left: 0px;
+    }
+}
+/* FIM CÓDIGO RESPONSIVO DO PARAGRAFO */
+
+
+
+/* CÓDIGO RESPONSIVO DO TEXTO */
+@media screen and (max-width: 414px) {
+    #que .texto {
+     padding-top: 0px;
+    padding-left: 0px;
+    font-size: 15px;
+    }
+}
+/* FIM CÓDIGO RESPONSIVO DO TEXTO */
+
+
+/* CÓDIGO RESPONSIVO DO MENU */
+@media screen and (max-width: 414px) {
+    #que .menu {
+     padding-top: 0px;
+    padding-left: 0px;
+    }
+}
+
+/* FIM CÓDIGO RESPONSIVO DO MENU*/
+
+/* CÓDIGO RESPONSIVO TITULO LARANJA */
+@media screen and (max-width: 414px) {
+   #conteudo .tituloLaranja {
+    padding-top: 0px;
+    font-size: 25px;
+       padding-left: 15px;
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO TITULO LARANJA */
+
+/* CÓDIGO RESPONSIVO VIRGULA 1 */
+@media screen and (max-width: 414px) {
+    #conteudo .virgula1 {
+  
+    color:orangered;
+    font-size: 25px;
+    margin:0px;
+    width: 90%;
+    padding-left: 15px;
+   
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DO VIRGULA 1*/
+
+/* CÓDIGO RESPONSIVO VIRGULA 2 */
+@media screen and (max-width: 414px) {
+    #conteudo .virgula2 {
+    color:orangered;
+    font-size: 30px;
+    margin:0px;
+    padding-left: 150px;
+        padding-bottom: 0px;
+     
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DO VIRGULA 2*/
+
+/* CÓDIGO RESPONSIVO TEXTO LARANJA */
+@media screen and (max-width: 414px) {
+    #conteudo .textoLaranja {
+    color: orangered;
+    padding-left: 15px;
+    padding-top: 0px;
+        font-size: 25px;
+        
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DO TEXTO LARANJA */
+
+/* CÓDIGO RESPONSIVO DA LINHA */
+@media screen and (max-width: 414px) {
+    #conteudo .linha-vertical {
+      display: none;
+    
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO DA LINHA */
+
+
+/* CÓDIGO RESPONSIVO TEXTO CONTEUDO */
+@media screen and (max-width: 414px) {
+   #conteudo .textoConteudo {
+    color: #C1C5C8;
+    margin: 0px;
+    text-align: justify;
+    width: 95%;
+    font-size: 15px;
+   padding-right: 0px;
+    padding-left: 15px;
+       
+}
+
+}
+
+/* FIM CÓDIGO RESPONSIVO TEXTO CONTEUDO */
